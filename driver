@@ -3,8 +3,8 @@ comm=0
 Guide=0
 start=0
 stop=0
-while comm < 99:
-    Guide = input("Enter a code.: ")
+while comm< 99:
+    Guide = input("Enter a code.: ").lower()
     if Guide == "help":
         print("Exit: To leave")
         print("Start: Initiate")
@@ -15,3 +15,5 @@ while comm < 99:
         print("See you next time!")
     elif Guide=="stop":
         print("You have stopped the car")
+    else:
+        print("Can you try using a valid code next time? ")
