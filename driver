@@ -1,0 +1,17 @@
+exit=0
+comm=0
+Guide=0
+start=0
+stop=0
+while comm < 99:
+    Guide = input("Enter a code.: ")
+    if Guide == "help":
+        print("Exit: To leave")
+        print("Start: Initiate")
+        print("Stop: to stop the car")
+    elif Guide=="start":
+        print("You started driving")
+    elif Guide=="exit":
+        print("See you next time!")
+    elif Guide=="stop":
+        print("You have stopped the car")
