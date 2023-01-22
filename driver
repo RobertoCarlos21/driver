@@ -11,9 +11,10 @@ while comm< 99:
         print("Stop: to stop the car")
     elif Guide=="start":
         print("You started driving")
-    elif Guide=="exit":
-        print("See you next time!")
     elif Guide=="stop":
         print("You have stopped the car")
+    elif Guide=="exit":
+        print("See you next time!")
+        break
     else:
         print("Can you try using a valid code next time? ")
