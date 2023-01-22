@@ -4,7 +4,7 @@ while True:
     Guide = input("Enter a code.: ").lower()
     if Guide == "start":
         if started:
-            print("You cannot do that twice!")
+            print("You cannot do that again!")
         else:
             started=True
             print("You have started the car.")
@@ -14,7 +14,7 @@ while True:
         print("Stop: to stop the car.")
     elif Guide == "stop":
         if stopped:
-            print("You cannot do that twice!")
+            print("You cannot do that again!")
         else:
             stopped = True
             print("You have stopped the car")
